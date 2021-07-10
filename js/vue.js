@@ -10762,7 +10762,7 @@
     function isDirectChildOfTemplateFor (node) {
       while (node.parent) {
         node = node.parent;
-        if (node.tag !== 'template') {git remote add origin https://github.com/LuLisong0411/vue_basics.git
+        if (node.tag !== 'template') {
           return false
         }
         if (node.for) {
